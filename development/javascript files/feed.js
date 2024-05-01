@@ -130,7 +130,7 @@ async function getCurrentAuthUser() {
         document.body.prepend(alertDiv);
 
         setTimeout(() => {
-            window.location.href = './index.html';
+            window.location.href = '../../index.html';
         }, 3000);
     }
 }
