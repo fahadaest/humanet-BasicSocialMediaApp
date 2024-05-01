@@ -589,7 +589,7 @@ function peopleSuggestions() {
             <a href="#" class="hover-img-change">
                 <button
                     class="rounded-full bg-slate-300 w-[4vh] h-[4vh] flex justify-center items-center hover:bg-slate-100">
-                    <img class="w-4" src="/logo/tick-black.png" alt="">
+                    <img class="w-4" src="../../logo/tick-black.png" alt="">
                 </button>
             </a>
         </div>
