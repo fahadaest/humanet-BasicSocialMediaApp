@@ -586,7 +586,7 @@ function peopleSuggestions() {
             <p class="text-[10px] people-suggestion-div"> ${user.company.title} </p>
         </div>
         <div class="h-[100%] w-[20%] flex flex-col justify-center">
-            <a href="" class="hover-img-change">
+            <a href="#" class="hover-img-change">
                 <button
                     class="rounded-full bg-slate-300 w-[4vh] h-[4vh] flex justify-center items-center hover:bg-slate-100">
                     <img class="w-4" src="/logo/tick-black.png" alt="">
