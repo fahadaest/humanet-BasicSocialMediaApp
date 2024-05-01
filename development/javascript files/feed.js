@@ -89,13 +89,13 @@ async function getCurrentAuthUser() {
                     </div>
                     <div class="w-[80%] h-8">
                         <a href="#" class="flex items-center">
-                            <img src="/logo/news.png" class="h-6 mr-3" alt="">
+                            <img src="../../logo/news.png" class="h-6 mr-3" alt="">
                             <p>Latest News</p>
                         </a>
                     </div>
                     <div class="w-[80%] h-8 mb-3">
                         <a href="#" class="flex items-center">
-                            <img src="/logo/events.png" class="h-6 mr-3" alt="">
+                            <img src="../../logo/events.png" class="h-6 mr-3" alt="">
                             <p>Events</p>
                         </a>
                     </div>

@@ -193,7 +193,6 @@ function checkAuthAndGetData() {
                         const posts = data.posts;
                         posts.forEach(post => {
                             const urlImg = generateRandomImageLink();
-                            console.log(post);
 
                             // my posts
                             const myPosts = `<!-- post div-->

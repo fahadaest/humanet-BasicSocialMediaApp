@@ -19,7 +19,6 @@ function getCurrentAuthUser() {
     })
         .then(res => res.json())
         .then(data => {
-            console.log(data.image)
 
             // div for showing user data in navbar
             const navIntro = `
@@ -97,7 +96,6 @@ function loadUser() {
     try {
         // fetch auth user data
         const id = localStorage.getItem("user profile id");
-        console.log(id)
 
         fetch(`https://dummyjson.com/users/${id}`)
 
