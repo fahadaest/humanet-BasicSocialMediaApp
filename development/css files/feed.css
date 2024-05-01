@@ -1,0 +1,149 @@
+@media (max-width: 1108px) {
+
+    .main-content-div {
+        width: 100vw !important;
+    }
+
+    .main-right-div {
+        width: 21% !important;
+    }
+
+    .main-left-div {
+        width: 21% !important;
+        font-size: small !important;
+    }
+
+    .center-scrollable-div {
+        width: 55% !important;
+    }
+
+    .bio-description {
+        padding-left: 1vh !important;
+        padding-right: 1vh !important;
+    }
+
+    .com-div-myProfile {
+        width: 85% !important;
+    }
+
+    .do-post-icons-left {
+        width: auto !important;
+        margin-left: 2vh !important;
+    }
+
+    .btn-do-posts {
+        width: auto !important;
+        font-size: x-small !important;
+        margin-right: 1vh !important;
+    }
+
+    .bio-description {
+        font-size: small !important;
+    }
+
+    .each-com {
+        max-width: 100% !important;
+    }
+
+}
+
+@media (max-width: 860px) {
+
+    .main-content-div {
+        width: 100vw !important;
+        margin-top: 1vh !important;
+    }
+
+    .main-right-div {
+        display: none !important;
+    }
+
+    .main-left-div {
+        width: 31% !important;
+    }
+
+    .center-scrollable-div {
+        width: 68% !important;
+    }
+
+    .toggle-menu {
+        display: none !important;
+    }
+
+    .add-option {
+        display: block !important;
+    }
+
+    .com-div-myProfile {
+        width: 85% !important;
+    }
+
+    .bio-description {
+        font-size: small !important;
+    }
+
+    .com-user-img {
+        margin-right: 8vh !important;
+    }
+
+}
+
+
+
+
+@media (max-width: 639px) {
+
+    .main-content-div {
+        width: 100vw !important;
+        margin-top: 1vh !important;
+    }
+
+
+    .main-left-div {
+        display: none !important;
+    }
+
+    .center-scrollable-div {
+        width: 100% !important;
+    }
+
+    .toggle-menu {
+        display: none !important;
+    }
+
+    .search-div {
+        display: block !important;
+    }
+
+    .com-div-myProfile {
+        width: 85% !important;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .do-post-icons {
+        flex-direction: column !important;
+        padding-top: 2vh !important;
+        margin-top: 2vh !important;
+    }
+
+    .do-icon-img {
+        height: 2vh !important;
+    }
+
+    .do-post-div {
+        height: auto !important;
+        padding-bottom: 2vh !important;
+    }
+
+    .btn-do-posts {
+        padding-left: 1vh !important;
+        padding-right: 1vh !important;
+    }
+
+    .do-post-icons-left {
+        margin-bottom: 2vh !important;
+    }
+}

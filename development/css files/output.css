@@ -1,0 +1,63 @@
+/* main div scrollbar */
+.center-scrollable-div::-webkit-scrollbar {
+  width: 8px;
+}
+
+.center-scrollable-div::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #d5d5d5;
+}
+
+.center-scrollable-div::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+
+/* right div scrollbar */
+.people-suggestions-div::-webkit-scrollbar {
+  width: 8px;
+}
+
+.people-suggestions-div::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #d5d5d5;
+}
+
+.people-suggestions-div::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+
+/* story div scrollbar */
+.story-div::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.story-div::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #d5d5d5;
+}
+
+.story-div::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+
+
+
+
+/* comments div */
+.com-div-myProfile::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.com-div-myProfile::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #d5d5d5;
+}
+
+.com-div-myProfile::-webkit-scrollbar-track {
+  background-color: #eee;
+}

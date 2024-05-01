@@ -1,0 +1,238 @@
+@media (max-width: 1108px) {
+    .main-content-div {
+        width: 100vw !important;
+    }
+
+    .bio-username {
+        margin-left: 10vh !important;
+    }
+
+    .do-post-icons-left {
+        width: auto !important;
+        margin-left: 2vh !important;
+    }
+
+    .btn-do-posts {
+        width: auto !important;
+        font-size: x-small !important;
+        margin-right: 1vh !important;
+    }
+
+    .each-com {
+        max-width: 100% !important;
+    }
+
+    .com-div-myProfile {
+        width: 85% !important;
+    }
+}
+
+@media (max-width: 860px) {
+
+    .com-div-myProfile {
+        width: 85% !important;
+    }
+
+    .add-option {
+        display: block !important;
+    }
+
+    .toggle-menu {
+        display: none !important;
+    }
+
+    .right-top-div {
+        font-size: small !important;
+    }
+
+    .about-div {
+        font-size: small !important;
+    }
+
+    .about-content {
+        font-size: x-small !important;
+    }
+
+    .people-suggestion-div {
+        font-size: xx-small !important;
+    }
+
+    .edit-profile {
+        font-size: x-small !important;
+        height: 40% !important;
+    }
+
+    .bio-username {
+        margin-left: 15vh !important;
+        font-size: small !important;
+    }
+
+    .bio-name {
+        font-size: large !important;
+    }
+
+    .bio-bottom-div-text {
+        font-size: small !important;
+    }
+
+    .user-image-button {
+        height: 15vh !important;
+        width: 15vh !important;
+    }
+
+    .menu-img {
+        height: 50% !important;
+    }
+
+}
+
+
+@media (max-width: 738px) {
+
+    .bio-username {
+        margin-left: 7vh !important;
+        font-size: small !important;
+    }
+
+    .bio-bottom-div-text {
+        font-size: 1.5vh !important;
+    }
+
+    .bio-bottom-img {
+        height: 2vh !important;
+    }
+
+    .bio-name {
+        font-size: 2.5vh !important;
+    }
+
+    .com-user-img {
+        margin-right: 8vh !important;
+    }
+
+}
+
+
+
+@media (max-width: 639px) {
+
+    .com-div-myProfile {
+        width: 85% !important;
+    }
+
+    .main-content-div {
+        width: 100vw !important;
+        margin-top: 1vh !important;
+    }
+
+    .center-scrollable-div {
+        width: 100vw !important;
+    }
+
+    .search-div {
+        display: block !important;
+    }
+
+    .search-bar {
+        display: none !important;
+    }
+
+    .right-div-main {
+        display: none !important;
+    }
+
+}
+
+@media (max-width: 470px) {
+
+    .bio-username {
+        margin-left: 1vh !important;
+    }
+
+    .user-image-button {
+        height: 13vh !important;
+        width: 13vh !important;
+        margin-left: 10px !important;
+    }
+
+    .bio-name {
+        font-size: 2.5vh !important;
+    }
+
+    .bio-bottom-per-div {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .bottom-icons-div {
+        width: 95% !important;
+        padding-left: 2vh !important;
+        padding-right: 0px !important;
+    }
+
+    .do-post-div {
+        height: auto !important;
+        padding-bottom: 2vh !important;
+    }
+
+    .do-post-icons {
+        flex-direction: column !important;
+        padding-top: 2vh !important;
+        margin-top: 2vh !important;
+    }
+
+    .do-post-icons-left {
+        margin-bottom: 2vh !important;
+    }
+
+    .btn-do-posts {
+        padding-left: 1vh !important;
+        padding-right: 1vh !important;
+    }
+
+    .do-icon-img {
+        height: 2vh !important;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .user-image-button {
+        height: 10vh !important;
+        width: 10vh !important;
+    }
+
+    .bio-username {
+        margin-left: 40px !important;
+        margin-top: 10px !important;
+        font-size: 2vh !important;
+        width: 100% !important;
+    }
+
+    .bio-name {
+        font-size: 2.5vh !important;
+
+    }
+
+    .edit-profile {
+        display: none !important;
+    }
+
+    .bio-bottom-div-text {
+        font-size: xx-small !important;
+    }
+
+    .bio-down-menu-items {
+        font-size: xx-small !important;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    .bio-username {
+        margin-left: 60px !important;
+        margin-top: 15px !important;
+    }
+
+}
