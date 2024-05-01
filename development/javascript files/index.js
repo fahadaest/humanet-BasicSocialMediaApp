@@ -75,7 +75,7 @@ class LoginForm {
             // remove alert after 1 seconds
             setTimeout(() => {
                 alertDiv.remove();
-                window.location.href = '/development/html pages/feed.html';
+                window.location.href = 'development/html pages/feed.html';
             }, 1000);
 
         } catch (error) {
