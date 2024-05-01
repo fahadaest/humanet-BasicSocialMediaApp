@@ -26,7 +26,6 @@ function checkAuthAndGetData() {
             })
             .then(data => {
                 const currentUser = data;
-                console.log(currentUser);
 
                 var imgElement = document.querySelector('.do-post-img');
                 imgElement.src = `${currentUser.image}`;
@@ -77,7 +76,7 @@ function checkAuthAndGetData() {
                 <div class="h-full w-[30%] flex items-center justify-center">
                     <button class="bg-slate-200 h-10 rounded-md mr-3 px-3 edit-profile">Edit Profile</button>
                     <button onclick="abcd()" class="bg-slate-200 px-3 py-1 rounded-md text-sm h-10 flex items-center justify-center edit-profile">
-                        <img class="h-5 menu-img" src="../../logo/post-menu.png" alt="">
+                        <img class="h-5 menu-img" src="../logo/post-menu.png" alt="">
                     </button>
                 </div>
             </div>
@@ -87,17 +86,17 @@ function checkAuthAndGetData() {
                 <div class="w-[90%] h-[50%] flex items-center justify-between mt border-b border-gray-300 bottom-icons-div">
 
                     <div class="flex px-3 py-3 bio-bottom-per-div">
-                        <img class="h-4 mt-1 mr-2 bio-bottom-img" src="../../logo/portfolio.png" alt="">
+                        <img class="h-4 mt-1 mr-2 bio-bottom-img" src="../logo/portfolio.png" alt="">
                         <p class="mr-7 text-gray-500 bio-bottom-div-text">${currentUser.company.title}</p>
                     </div>
 
                     <div class="flex px-3 py-3 bio-bottom-per-div">
-                        <img class="h-4 mt-1 mr-2 bio-bottom-img" src="../../logo/location.png" alt="">
+                        <img class="h-4 mt-1 mr-2 bio-bottom-img" src="../logo/location.png" alt="">
                         <p class="mr-7 text-gray-500 bio-bottom-div-text">${currentUser.address.city}, ${currentUser.address.state}</p>
                     </div>
 
                     <div class="flex px-3 py-3 bio-bottom-per-div">
-                        <img class="h-4 mt-1 mr-2 bio-bottom-img" src="../../logo/calendar.png" alt="">
+                        <img class="h-4 mt-1 mr-2 bio-bottom-img" src="../logo/calendar.png" alt="">
                         <p class="mr-7 text-gray-500 bio-bottom-div-text">Age: ${currentUser.age}</p>
                     </div>
 
@@ -213,7 +212,7 @@ function checkAuthAndGetData() {
                         </div>
                         <div class="h-[10vh] w-[auto] flex items-center">
                             <button class=" px-3 py-1 rounded-md text-sm flex">
-                                <img class="h-5" src="/logo/post-menu.png" alt="">
+                                <img class="h-5" src="../logo/post-menu.png" alt="">
                             </button>
                         </div>
                     </div>
@@ -278,7 +277,7 @@ function checkAuthAndGetData() {
                              </div>
                              <div class=" w-[89%] h-auto  flex-col">
                                  <button class=" bg-white h-full w-full flex items-center justify-center">
-                                     <img class="h-5 mr-2" src="../../logo/post-menu.png" alt=""> Show more comments
+                                     <img class="h-5 mr-2" src="../logo/post-menu.png" alt=""> Show more comments
                                  </button>
                              </div>
                          </div>
@@ -357,7 +356,6 @@ class PeopleSuggestions {
                 return res.json();
             })
             .then(data => {
-                console.log(data);
                 this.renderUsers(data.users);
             })
             .catch(error => {
