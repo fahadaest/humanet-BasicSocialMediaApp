@@ -307,7 +307,7 @@ function loadUser() {
                         <div class=" h-full w-auto flex items-center justify-between">
     
                             <div class=" h-full w-auto flex items-center justify-center mr-5">
-                                <img class="h-4 mr-1" src="/logo/like.png" alt="">
+                                <img class="h-4 mr-1" src="../../logo/like.png" alt="">
                                 <p> ${post.reactions} Likes</p>
                             </div>
     

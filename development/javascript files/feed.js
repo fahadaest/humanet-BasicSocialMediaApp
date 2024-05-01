@@ -268,7 +268,7 @@ async function fetchPosts() {
                     <div class=" h-[5vh] w-[93%] flex items-center justify-between mb-2">
                         <div class=" h-full w-auto flex items-center justify-between">
                             <div class=" h-full w-auto flex items-center justify-center mr-5">
-                                <img class="h-4 mr-1" src="/logo/like.png" alt="">
+                                <img class="h-4 mr-1" src="../../logo/like.png" alt="">
                                 <p> ${post.reactions} Likes</p>
                             </div>
                             <div class=" h-full w-auto flex items-center justify-center">
@@ -564,7 +564,7 @@ async function searchPost(inputValue) {
                             <div class=" h-full w-auto flex items-center justify-between">
         
                                 <div class=" h-full w-auto flex items-center justify-center mr-5">
-                                    <img class="h-4 mr-1" src="/logo/like.png" alt="">
+                                    <img class="h-4 mr-1" src="../../logo/like.png" alt="">
                                     <p> ${posts.reactions} Likes</p>
                                 </div>
         
