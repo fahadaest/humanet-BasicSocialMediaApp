@@ -348,7 +348,7 @@ function loadUser() {
                              </div>
                              <div class=" w-[89%] h-auto  flex-col">
                                  <button class=" bg-white h-full w-full flex items-center justify-center">
-                                     <img class="h-5 mr-2" src="../../logo/post-menu.png" alt=""> Show more comments
+                                     <img class="h-5 mr-2" src="../../logo/" alt=""> Show more comments
                                  </button>
                              </div>
                          </div>
