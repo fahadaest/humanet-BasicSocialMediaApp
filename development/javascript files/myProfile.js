@@ -77,7 +77,7 @@ function checkAuthAndGetData() {
                 <div class="h-full w-[30%] flex items-center justify-center">
                     <button class="bg-slate-200 h-10 rounded-md mr-3 px-3 edit-profile">Edit Profile</button>
                     <button onclick="abcd()" class="bg-slate-200 px-3 py-1 rounded-md text-sm h-10 flex items-center justify-center edit-profile">
-                        <img class="h-5 menu-img" src="/logo/post-menu.png" alt="">
+                        <img class="h-5 menu-img" src="../../logo/post-menu.png" alt="">
                     </button>
                 </div>
             </div>
@@ -242,14 +242,14 @@ function checkAuthAndGetData() {
                             </div>
     
                             <div class=" h-full w-auto flex items-center justify-center">
-                                <img class="h-5 mr-1" src="/logo/comment.png" alt="">
+                                <img class="h-5 mr-1" src="../../logo/comment.png" alt="">
                                 <p>Comments</p>
                             </div>
     
                         </div>
     
                         <div class=" h-full w-auto flex items-center justify-center">
-                            <img class="h-4 mr-1" src="/logo/share.png" alt="">
+                            <img class="h-4 mr-1" src="../../logo/share.png" alt="">
                             <p>Shares</p>
                         </div>
                     </div>
@@ -279,7 +279,7 @@ function checkAuthAndGetData() {
                              </div>
                              <div class=" w-[89%] h-auto  flex-col">
                                  <button class=" bg-white h-full w-full flex items-center justify-center">
-                                     <img class="h-5 mr-2" src="/logo/post-menu.png" alt=""> Show more comments
+                                     <img class="h-5 mr-2" src="../../logo/post-menu.png" alt=""> Show more comments
                                  </button>
                              </div>
                          </div>

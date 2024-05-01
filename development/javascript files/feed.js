@@ -71,19 +71,19 @@ async function getCurrentAuthUser() {
                 <div class="h-[50%] flex flex-col justify-around items-center">
                     <div class="w-[80%] h-8 mt-3">
                         <a href="#" class="flex items-center">
-                            <img src="/logo/connections.png" class="h-7 mr-3" alt="">
+                            <img src="../../logo/connections.png" class="h-7 mr-3" alt="">
                             <p>Connections</p>
                         </a>
                     </div>
                     <div class="w-[80%] h-8">
                         <a href="#" class="flex items-center">
-                            <img src="/logo/groups.png" class="h-7 mr-3" alt="">
+                            <img src="../../logo/groups.png" class="h-7 mr-3" alt="">
                             <p>Groups</p>
                         </a>
                     </div>
                     <div class="w-[80%] h-8">
                         <a href="#" class="flex items-center">
-                            <img src="/logo/page.png" class="h-6 mr-3" alt="">
+                            <img src="../../logo/page.png" class="h-6 mr-3" alt="">
                             <p>Pages</p>
                         </a>
                     </div>
@@ -250,7 +250,7 @@ async function fetchPosts() {
                         </div>
                         <div class="h-[10vh] w-[auto] flex items-center">
                             <button class=" px-3 py-1 rounded-md text-sm flex">
-                                <img class="h-5" src="/logo/post-menu.png" alt="">
+                                <img class="h-5" src="../../logo/post-menu.png" alt="">
                             </button>
                         </div>
                     </div>
@@ -272,12 +272,12 @@ async function fetchPosts() {
                                 <p> ${post.reactions} Likes</p>
                             </div>
                             <div class=" h-full w-auto flex items-center justify-center">
-                                <img class="h-5 mr-1" src="/logo/comment.png" alt="">
+                                <img class="h-5 mr-1" src="../../logo/comment.png" alt="">
                                 <p>Comments</p>
                             </div>
                         </div>
                         <div class=" h-full w-auto flex items-center justify-center">
-                            <img class="h-4 mr-1" src="/logo/share.png" alt="">
+                            <img class="h-4 mr-1" src="../../logo/share.png" alt="">
                             <p>Shares</p>
                         </div>
                     </div>
@@ -302,7 +302,7 @@ async function fetchPosts() {
                             <div class=" w-[10%] h-auto flex justify-center"></div>
                             <div class=" w-[89%] h-auto  flex-col">
                                 <button class="bg-white h-full w-full flex items-center justify-center show-more-com">
-                                    <img class="h-5 mr-2" src="/logo/post-menu.png" alt=""> Show more comments
+                                    <img class="h-5 mr-2" src="../../logo/post-menu.png" alt=""> Show more comments
                                 </button>
                             </div>
                         </div>
@@ -541,7 +541,7 @@ async function searchPost(inputValue) {
                             </div>
                             <div class="h-[10vh] w-[auto] flex items-center">
                                 <button class=" px-3 py-1 rounded-md text-sm flex">
-                                    <img class="h-5" src="/logo/post-menu.png" alt="">
+                                    <img class="h-5" src="../../logo/post-menu.png" alt="">
                                 </button>
                             </div>
                         </div>
@@ -569,14 +569,14 @@ async function searchPost(inputValue) {
                                 </div>
         
                                 <div class=" h-full w-auto flex items-center justify-center">
-                                    <img class="h-5 mr-1" src="/logo/comment.png" alt="">
+                                    <img class="h-5 mr-1" src="../../logo/comment.png" alt="">
                                     <p>Comments</p>
                                 </div>
         
                             </div>
         
                             <div class=" h-full w-auto flex items-center justify-center">
-                                <img class="h-4 mr-1" src="/logo/share.png" alt="">
+                                <img class="h-4 mr-1" src="../../logo/share.png" alt="">
                                 <p>Shares</p>
                             </div>
                         </div>
@@ -607,7 +607,7 @@ async function searchPost(inputValue) {
                                  </div>
                                  <div class=" w-[89%] h-auto  flex-col">
                                      <button class="bg-white h-full w-full flex items-center justify-center">
-                                         <img class="h-5 mr-2" src="/logo/post-menu.png" alt=""> Show more comments
+                                         <img class="h-5 mr-2" src="../../logo/post-menu.png" alt=""> Show more comments
                                      </button>
                                  </div>
                              </div>
