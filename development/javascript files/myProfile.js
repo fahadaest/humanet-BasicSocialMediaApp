@@ -86,17 +86,17 @@ function checkAuthAndGetData() {
                 <div class="w-[90%] h-[50%] flex items-center justify-between mt border-b border-gray-300 bottom-icons-div">
 
                     <div class="flex px-3 py-3 bio-bottom-per-div">
-                        <img class="h-4 mt-1 mr-2 bio-bottom-img" src="../logo/portfolio.png" alt="">
+                        <img class="h-4 mt-1 mr-2 bio-bottom-img" src="../../logo/portfolio.png" alt="">
                         <p class="mr-7 text-gray-500 bio-bottom-div-text">${currentUser.company.title}</p>
                     </div>
 
                     <div class="flex px-3 py-3 bio-bottom-per-div">
-                        <img class="h-4 mt-1 mr-2 bio-bottom-img" src="../logo/location.png" alt="">
+                        <img class="h-4 mt-1 mr-2 bio-bottom-img" src="../../logo/location.png" alt="">
                         <p class="mr-7 text-gray-500 bio-bottom-div-text">${currentUser.address.city}, ${currentUser.address.state}</p>
                     </div>
 
                     <div class="flex px-3 py-3 bio-bottom-per-div">
-                        <img class="h-4 mt-1 mr-2 bio-bottom-img" src="../logo/calendar.png" alt="">
+                        <img class="h-4 mt-1 mr-2 bio-bottom-img" src="../../logo/calendar.png" alt="">
                         <p class="mr-7 text-gray-500 bio-bottom-div-text">Age: ${currentUser.age}</p>
                     </div>
 
